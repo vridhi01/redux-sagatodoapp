@@ -52,17 +52,4 @@ export const editTodoFail = (error) => ({
 
 
 
-export const editTodoButton = (data,isEditItem) => {
-    return {
-        type : 'EDIT_TODO',
-        payload : {
-            editdata :data,
-            isEditItem:isEditItem,
-        }
-        
-    }
-};
-
-
-
 
